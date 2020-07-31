@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, #root{
+  background-color: aquamarine;
+  display: flex;
+  width: 100vw;
+
+}
+.app-container{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+.form-section{
+ display: flex;
+}
+form{
+  margin: auto;
+}
+.title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1{
+  display: inline-block;
+  margin-left: 10px;
+}
+.prompt{
+  margin-right: 10px !important;
+  padding: 5px;
+  width: 200px;
+}
+.ui.icon.input>i.icon{
+  margin-right: 10px;
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.profile-section{
+  display: flex;
+  flex-direction: column;
+}
+.bio-section{
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.repositories-section{
+padding: 10px;
+}
+.ui.list>.item>.image:not(:only-child):not(img) {
+  padding-right: 5px;
+}
+@media(min-width: 600px){
+  
+}
